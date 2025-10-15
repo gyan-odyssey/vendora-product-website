@@ -32,14 +32,15 @@ export function Hero() {
               {hero.primaryCTA}
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
             </motion.button>
-            <motion.button
+            <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              href="/under-development.html"
               className="px-8 py-4 bg-transparent border-2 border-white text-white rounded-xl font-semibold text-lg hover:bg-white/10 transition-all duration-300 flex items-center gap-2"
             >
               <FileText size={20} />
               {hero.secondaryCTA}
-            </motion.button>
+            </motion.a>
           </div>
         </motion.div>
       </div>

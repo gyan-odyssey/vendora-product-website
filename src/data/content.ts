@@ -142,13 +142,13 @@ export const MOCK_CONTENT = {
     title: "Power Your Commerce Operations with Vendora",
     description: "Join businesses worldwide who trust Vendora to run their commerce infrastructure.",
     buttonText: "Request a Free Demo",
-    docs: "https://docs.vendora.com",
+    docs: "/under-development.html",
     support: "support@vendora.com"
   },
 
   footer: {
     links: [
-      { label: "Documentation", href: "https://docs.vendora.com" },
+      { label: "Documentation", href: "/under-development.html" },
       { label: "Support", href: "mailto:support@vendora.com" },
       { label: "Terms of Service", href: "#terms" },
       { label: "Privacy Policy", href: "#privacy" }
